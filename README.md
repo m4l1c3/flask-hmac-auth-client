@@ -7,11 +7,9 @@ Python client library for flask-hmac-auth
 <code>
 export APIKEY="WHATEVER_YOU_WANT!!!"
 </code>
-
+<br />
 <code>
 from flask_hmac_auth_client import MessageAuthentication()<br/>
-
 a = MessageAuthentication()<br/>
-
 a.compute('a', 'a')<br/>
 </code>
