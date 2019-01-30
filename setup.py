@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name = 'flask_hmac_auth_client_m4l1c3',
     version = '1.0.0',
-    description = 'A client library for computing HMAC values in flask_hmac_auth_client_m4l1c3,
+    description = 'A client library for computing HMAC values in flask_hmac_auth_client_m4l1c3',
     author = 'm4l1c3',
     author_email = 'm4l1c3@tutanota.com',
     url = 'https://github.com/m4l1c3/flask-hmac-auth-client',
