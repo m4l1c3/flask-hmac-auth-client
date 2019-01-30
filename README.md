@@ -2,16 +2,16 @@
 Python client library for flask-hmac-auth
 
 # Use:
-Create an environment variable named APIKEY:
+- Create an environment variable named APIKEY:
 
 <code>
 export APIKEY="WHATEVER_YOU_WANT!!!"
 </code>
 
 <code>
-from flask_hmac_auth_client import MessageAuthentication()
+from flask_hmac_auth_client import MessageAuthentication()<br/>
 
-a = MessageAuthentication()
+a = MessageAuthentication()<br/>
 
-a.compute('a', 'a')
+a.compute('a', 'a')<br/>
 </code>
