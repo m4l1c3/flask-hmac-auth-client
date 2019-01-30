@@ -9,6 +9,6 @@ export APIKEY="WHATEVER_YOU_WANT!!!"
 ```
 ```python
 from flask_hmac_auth_client import MessageAuthentication()<br/>
-a = MessageAuthentication()<br/>
-a.compute('a', 'a')<br/>
+a = MessageAuthentication()
+a.compute('a', 'a')
 ```
